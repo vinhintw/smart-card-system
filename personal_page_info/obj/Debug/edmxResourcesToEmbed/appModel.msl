@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="userModelStoreContainer" CdmEntityContainer="userE">
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="userModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="Paid" ColumnName="Paid" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Avatar" ColumnName="Avatar" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="Facebook" ColumnName="Facebook" />
+          <ScalarProperty Name="Line" ColumnName="Line" />
+          <ScalarProperty Name="Youtube" ColumnName="Youtube" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

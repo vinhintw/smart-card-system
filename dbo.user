@@ -1,0 +1,13 @@
+﻿CREATE TABLE [dbo].[user] (
+    [Id]       NCHAR (20) NOT NULL,
+    [Password] NCHAR (50) NULL,
+    [Avatar]   NCHAR (50)      NULL,
+    [Name]     NCHAR (20) NULL,
+    [Phone]    INT        NULL,
+    [Website]  NCHAR (50) NULL,
+    [Facebook] NCHAR (50) NULL,
+    [Line]     NCHAR (50) NULL,
+    [Youtube]  NCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
